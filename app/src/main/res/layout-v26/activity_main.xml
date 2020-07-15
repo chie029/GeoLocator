@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".GeoTagging">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/showLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Location" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/getAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/getCoordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/btnGetCoordinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Coordinates" />
+</LinearLayout>
